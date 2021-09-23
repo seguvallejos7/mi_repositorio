@@ -327,4 +327,10 @@ p {
     height: 300px;
   }
 }
+
+@media screen and (max-width: 1100px) {
+  img {
+    height: 400px;
+  }
+}
 /*# sourceMappingURL=estilos.css.map */
