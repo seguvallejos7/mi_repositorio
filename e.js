@@ -4,4 +4,4 @@ setTimeout(()=>{
     busco.nextElementSibling.remove()
     busco.nextElementSibling.remove()
     busco.nextElementSibling.remove()
-}, 2000);
+}, 1000);
