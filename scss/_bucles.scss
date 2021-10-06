@@ -1,5 +1,0 @@
-@each $red, $colores in $redes{
-    .button-#{$red}{
-        background-color: $colores;
-    }
-}
