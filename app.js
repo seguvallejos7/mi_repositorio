@@ -8,7 +8,7 @@ console.log(apellido)
 console.log(edad)
 
 let mensaje = prompt("¿Que mensaje quiere enviar?")
-alert(`${nombre} ${apellido}`)
+console.log(`${nombre} ${apellido}`)
 
 let num1= Number(prompt("Ingrese un numero"))
 let num2= Number(prompt("Ingrese otro numero"))
