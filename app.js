@@ -1,6 +1,9 @@
 alert("Bienvenido")
+//variablr 1
 let nombre= prompt("Ingrese su nombre")
+//variable2
 let apellido = prompt("Ingrese su apellido")
+//variable 3
 let edad = Number(prompt("ingrese su edad"))
 
 console.log(nombre)
