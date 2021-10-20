@@ -1,30 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Proyecto final</title>
-</head>
-<body>
-  <h1>Proyecto final primera entrega</h1>
-  
+ <html lang="es">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./estilos.css">
+     <title>Bebidas</title>
+ </head>
+ 
+ <body>
+     <h1>Tienda de bebidas</h1>
 
+       <p>"Whisky","Johnnie Walker","Red label","750ml"</p>
+       <p>"Whisky","Johnnie Walker","Black label","750ml"</p>
+       <p>"Whisky","Jack Daniel`s","Old No 7","750ml"</p>
+       <p>"Whisky","Jack Daniel`s","Tennessee Honey","750ml"</p>
+       <p>"Cerveza","Stella Artois","Belgium","1L"</p>
+       <p>"Cerveza","Stella Artois","Belgium","473ml"</p>
+       <p>"Cerveza","Stella Artois","Noire","1L"</p>
+       <p>"Cerveza","Quilmes","Original","1L"</p>
+       <p>"Cerveza","Quilmes","Original","473ml"</p>
+       <p>"Cerveza","Brahma","Chopp","1L"</p>
+       <p>"Cerveza","Brahma","Chopp","473ml"</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <script src="./app.js"> </script>
-</body>
-</html>
+ 
+     <form action="">
+ 
+         <input type="text" placeholder="Nombre" autocomplete="off" id="nombre">
+         <input type="text" placeholder="Marca" autocomplete="off" id="marca">
+         <input type="text" placeholder="Modelo" autocomplete="off" id="modelo">
+         <input type="text" placeholder="Tamaño" autocomplete="off" id="tamaño">
+ 
+         <button id="btnSave">Guardar</button>
+     </form>
+ 
+     <table id="tabla">
+         <tr>
+             <td>/</td>
+             <td>Nombre</td>
+             <td>Marca</td>
+             <td>Modelo</td>
+             <td>Tamaño</td>
+             <td>Disponible</td>
+             <td>Qiutar</td>
+         </tr>
+     </table>
+ 
+ 
+     <script src="./app.js"></script>
+ </body>
+ 
+ </html>
