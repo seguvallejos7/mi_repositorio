@@ -1,4 +1,26 @@
-td{
-    padding: 10px;
-    border: solid 1px black;
+body{
+    background-image: linear-gradient(to top, rgb(82, 211, 243), rgb(64, 184, 240));
+    
 }
+#tabla{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#tabla td{
+    padding: 10px;
+    border: solid 2px black;
+    background-color: white;
+
+}
+p{
+    border: black 2px solid;
+    margin-left: 30px;
+    width: 450px;
+    background-color: white;
+}
+h1{
+    margin:60px ;
+    color: blueviolet;
+}
+

@@ -1,3 +1,4 @@
+
 //ENTIDADES
  
  class Bebida {
@@ -18,10 +19,8 @@
  }
  
  
- /***********************************
-  *           VARIABLES
-  ***********************************/
- 
+//variables
+
  let listaBebidas = [];
  
 //FUNCIONES
@@ -86,7 +85,7 @@
              <td>${obj.modelo}</td>
              <td>${obj.tamaño}</td>
              <td>${!obj.disponible ?'si':'no'}</td>
-             <td><button onclick=elimiarDeLaLista(${obj.marca})>X</button></td>
+             <td><button onclick=elimiarDeLaLista(${obj.nombre})>X</button></td>
          </tr>
          `
      });
@@ -114,3 +113,5 @@
  }
  
  console.log(verificarStorage())
+ 
+
